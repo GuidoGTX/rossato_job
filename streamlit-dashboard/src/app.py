@@ -10,12 +10,13 @@ load_dotenv(".env.vars")
 DB_PATH = os.environ["DB_PATH"]
 
 def get_db_connection():
+    print(f"{DB_PATH}")
     conn = sqlite3.connect(DB_PATH)
     return conn
 
 def fetch_car_reviews():
     conn = get_db_connection()
-    query = "SELECT * FROM auto_reviews"
+    query = "SELECT * FROM sentiment"
     df = pd.read_sql_query(query, conn)
     conn.close()
     return df

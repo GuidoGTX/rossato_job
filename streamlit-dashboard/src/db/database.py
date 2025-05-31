@@ -12,7 +12,7 @@ def get_connection():
 def fetch_reviews():
     conn = get_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM auto_reviews")
+    cursor.execute("SELECT * FROM sentiment")
     reviews = cursor.fetchall()
     conn.close()
     return reviews
@@ -20,7 +20,7 @@ def fetch_reviews():
 def fetch_review_by_brand(brand):
     conn = get_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM auto_reviews WHERE Brand = ?", (brand,))
+    cursor.execute("SELECT * FROM sentiment WHERE Brand = ?", (brand,))
     reviews = cursor.fetchall()
     conn.close()
     return reviews
@@ -28,7 +28,7 @@ def fetch_review_by_brand(brand):
 def fetch_review_by_model(model):
     conn = get_connection()
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM auto_reviews WHERE Model = ?", (model,))
+    cursor.execute("SELECT * FROM sentiment WHERE Model = ?", (model,))
     reviews = cursor.fetchall()
     conn.close()
     return reviews
