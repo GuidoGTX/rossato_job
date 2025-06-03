@@ -1,11 +1,410 @@
 Brand,Model,Drive,Quality of interior,Infotainment system,Comfort,Performance,Handling,Practicality,Reliability,Safety,Quality of construction,Noise,Engine,Price,Overall
-MG,ZS,Positive,Medium,Negative,Medium,Negative,Not mentioned,Positive,Medium,Negative,Not mentioned,Negative,Negative,18605.0,6.0
-MG,GS,Negative,Negative,Medium,Not mentioned,Positive,Negative,Positive,Not mentioned,Negative,Negative,Negative,Positive,15330.0,4.0
-MG,ZS EV,Medium,Negative,Positive,Medium,Not mentioned,Positive,Positive,Not mentioned,Not mentioned,Negative,Medium,Negative,30505.0,6.0
-MG,MG3,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Positive,Positive,"£16,995",8.0
-MG,MG5 EV,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Medium,Not mentioned,Positive,Medium,Not mentioned,Positive,31005.0,6.0
-MG,S5 EV,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Positive,Not mentioned,Medium,Positive,Positive,28995.0,8.0
-MG,HS,Negative,Medium,Medium,Positive,Positive,Negative,Positive,Not mentioned,Not mentioned,Negative,Medium,Positive,25995.0,7.0
-MG,MG4,Positive,Medium,Negative,Positive,Positive,Positive,Medium,Not mentioned,Positive,Positive,Negative,Positive,26995.0,8.0
-MG,ZS,Positive,Medium,Negative,Positive,Positive,Negative,Positive,Not mentioned,Positive,Medium,Negative,Positive,19995.0,7.0
-MG,4 XPower,Positive,Medium,Positive,Positive,Positive,Negative,Not mentioned,Positive,Positive,Medium,Negative,Positive,36495.0,8.0
+MG,ZS,Positive,Medium,Negative,Negative,Negative,Not mentioned,Positive,Negative,Negative,Not mentioned,Negative,Negative,18605.0,5.0
+MG,GS,Negative,Negative,Medium,Negative,Positive,Not mentioned,Positive,Not mentioned,Negative,Not mentioned,Not mentioned,Positive,15430.0,5.0
+MG,ZS EV,Medium,Negative,Positive,Medium,Medium,Medium,Positive,Not mentioned,Not mentioned,Negative,Negative,Medium,30505.0,7.0
+MG,MG3,Positive,Medium,Positive,Not mentioned,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Positive,Positive,16995.0,7.0
+MG,MG5 EV,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Positive,Positive,Positive,Good,Not mentioned,Not mentioned,31005.0,6.0
+MG,S5 EV,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Medium,Not mentioned,Positive,28495.0,8.0
+MG,HS,Medium,Negative,Not mentioned,Positive,Medium,Negative,Positive,Not mentioned,Not mentioned,Negative,Not mentioned,Positive,25995.0,8.0
+MG,MG4,Positive,Medium,Negative,Positive,Positive,Positive,Medium,Not mentioned,Not mentioned,Positive,Negative,Positive,26995.0,8.0
+MG,ZS,Positive,Medium,Negative,Positive,Positive,Negative,Positive,Not mentioned,Not mentioned,Medium,Negative,Positive,19995.0,7/10
+MG,GS,Positive,Medium,Not mentioned,Negative,Positive,Negative,Positive,Not mentioned,Positive,Medium,Negative,Positive,36395.0,8.0
+MG,Cyberster,Positive,Medium,Negative,Positive,Medium,Negative,Positive,Not mentioned,Not mentioned,Positive,Negative,Positive,54995.0,7.0
+Omoda,Omoda 5,Negative,Medium,Positive,Negative,Medium,Negative,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,25915.0,4.0
+Omoda,E5,Medium,Positive,Not mentioned,Negative,Medium,Medium,Negative,Not mentioned,Not mentioned,Positive,Negative,Medium,33065.0,5.5
+Omoda,9,Positive,Medium,Positive,Positive,Positive,Not mentioned,Positive,Negative,Not mentioned,Medium,Not mentioned,Positive,44990.0,7.0
+Volkswagen,Golf GTE,Positive,Positive,Medium,Positive,Positive,Negative,Negative,Positive,Positive,Positive,Medium,Positive,40140.0,8.0
+Volkswagen,Golf GTE,Positive,Positive,Medium,Positive,Positive,Negative,Negative,Positive,Positive,Positive,Medium,Positive,40140.0,8.0
+Volkswagen,Golf R,Positive,Medium,Negative,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Not mentioned,Negative,Positive,45660.0,8.0
+Volkswagen,Touareg R,Negative,Positive,Medium,Positive,Negative,Not mentioned,Negative,Medium,Medium,Negative,Not mentioned,Negative,82950.0,5.0
+Volkswagen,Polo GTI,Positive,Positive,Not mentioned,Positive,Positive,Medium,Positive,Not mentioned,Positive,Positive,Positive,Positive,30740.0,8/10
+Volkswagen,ID.5,Negative,Negative,Positive,Positive,Negative,Negative,Medium,Not mentioned,Not mentioned,Negative,Negative,Negative,41090.0,6.0
+Volkswagen,Passat,Positive,Positive,Medium,Positive,Not mentioned,Negative,Positive,Positive,Positive,Positive,Negative,Medium,39840.0,8.0
+Volkswagen,Touran,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Positive,Not mentioned,Medium,39135.0,7.0
+Volkswagen,ID7 Tourer,Positive,Medium,Negative,Positive,Positive,Not mentioned,Positive,Positive,Positive,Positive,Negative,Positive,51795.0,9.0
+Volkswagen,T-Cross,Positive,Medium,Not mentioned,Positive,Medium,Positive,Positive,Positive,Positive,Medium,Negative,Positive,25115.0,7.0
+Volkswagen,Polo,Medium,Positive,Negative,Positive,Medium,Not mentioned,Positive,Not mentioned,Positive,Positive,Negative,Medium,21470.0,8.0
+Volkswagen,T-Roc,Medium,Positive,Positive,Medium,Medium,Medium,Positive,Positive,Positive,Positive,Not mentioned,Medium,28825.0,7.0
+Volkswagen,Taigo,Medium,Positive,Medium,Negative,Medium,Medium,Positive,Medium,Medium,Positive,Negative,Positive,24770.0,6.0
+Volkswagen,ID7,Positive,Positive,Positive,Medium,Positive,Not mentioned,Positive,Medium,Positive,Positive,Negative,Positive,51005.0,8.0
+Volkswagen,ID.3,Neutral,Positive,Negative,Medium,Negative,Medium,Positive,Not mentioned,Positive,Positive,Not mentioned,Negative,30860.0,6.0
+Volkswagen,Golf GTI,Positive,Medium,Positive,Positive,Negative,Positive,Positive,Not mentioned,Not mentioned,Medium,Negative,Positive,40335.0,7.0
+Volkswagen,Tayron,Positive,Medium,Positive,Positive,Positive,Medium,Positive,Not mentioned,Not mentioned,Positive,Medium,Positive,40130.0,8.0
+Volkswagen,Multivan,Positive,Positive,Medium,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Positive,49613.0,8.0
+Volkswagen,Tiguan,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Positive,"$35,385 (approximately £35,385)",8.0
+Volkswagen,Golf,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Positive,Positive,Positive,Medium,Not mentioned,Positive,28010.0,8.0
+Volkswagen,ID. Buzz,Positive,Medium,Not mentioned,Positive,Negative,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Medium,59135.0,8.0
+Volkswagen,ID. Buzz,Positive,Medium,Not mentioned,Positive,Negative,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Medium,59135.0,8.0
+Volkswagen,Touareg,Positive,Medium,Not mentioned,Positive,Positive,Not mentioned,Positive,Not mentioned,Positive,Medium,Negative,Positive,71390.0,6/10
+Volkswagen,T-Roc Cabriolet,Positive,Positive,Medium,Positive,Not mentioned,Not mentioned,Negative,Positive,Positive,Positive,Not mentioned,Medium,36375.0,6.0
+Dacia,Jogger,Positive,Medium,Not mentioned,Positive,Negative,Not mentioned,Positive,Positive,Positive,Medium,Negative,Negative,18970.0,8.0
+,Logan MCV Stepway,Positive,Positive,Medium,Positive,Negative,Not mentioned,Positive,Medium,Positive,Positive,Negative,Medium,12370.0,7.0
+Dacia,Logan MCV,Negative,Medium,Positive,Medium,Not mentioned,Not mentioned,Positive,Negative,Medium,Negative,Negative,Medium,7405.0,5.0
+Dacia,Spring,Positive,Medium,Positive,Positive,Positive,Not mentioned,Positive,Not mentioned,Not mentioned,Negative,Not mentioned,Medium,14995.0,6.0
+Dacia,Sandero,Positive,Medium,Positive,Positive,Not mentioned,Positive,Positive,Positive,Positive,Medium,Negative,Positive,14715.0,7.5
+Dacia,Sandero Stepway,Negative,Positive,Medium,Positive,Not mentioned,Not mentioned,Negative,Positive,Medium,Positive,Not mentioned,Not mentioned,16015.0,6.0
+Dacia,Duster,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Positive,Positive,Negative,Positive,13800.0,9.0
+Dacia,Bigster,Positive,Medium,Positive,Positive,Positive,Not mentioned,Positive,Not mentioned,Positive,Negative,Not mentioned,Positive,25000.0,8.0
+Dacia,Bigster,Positive,Medium,Positive,Positive,Positive,Not mentioned,Positive,Not mentioned,Positive,Negative,Not mentioned,Positive,25000.0,8.0
+Fiat,Tipo,Positive,Medium,Positive,Not mentioned,Positive,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Not mentioned,Medium,4790.0,6.0
+Fiat,Panda,Positive,Medium,Negative,Positive,Not mentioned,Positive,Not mentioned,Not mentioned,Negative,Medium,Not mentioned,Positive,15435.0,7.0
+Fiat,500X Dolcevita Hatchback,Positive,Medium,Not mentioned,Negative,Not mentioned,Not mentioned,Negative,Positive,Positive,Medium,Not mentioned,Not mentioned,32255.0,5.0
+Fiat,500L,Positive,Medium,Not mentioned,Positive,Negative,Medium,Positive,Negative,Not mentioned,Negative,Negative,Negative,14970.0,4.0
+Fiat,500e,Positive,Medium,Positive,Medium,Negative,Not mentioned,Negative,Positive,Positive,Medium,Not mentioned,Positive,20335.0,7.0
+Fiat,600e,Positive,Medium,Negative,Positive,Positive,Not mentioned,Negative,Not mentioned,Not mentioned,Medium,Not mentioned,Positive,29035.0,7.0
+Fiat,124 Spider,Positive,Medium,Not mentioned,Positive,Negative,Positive,Negative,Positive,Positive,Positive,Not mentioned,Negative,21390.0,7.0
+Fiat,500X,Positive,Medium,Negative,Positive,Medium,Positive,Negative,Not mentioned,Not mentioned,Negative,Negative,Medium,30205.0,5.0
+Fiat,600,Negative,Medium,Negative,Positive,Negative,Positive,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,25105.0,6.0
+Fiat,500,Positive,Medium,Negative,Not mentioned,Not mentioned,Positive,Positive,Not mentioned,Negative,Medium,Negative,Positive,17995.0,6.0
+Fiat,500L MPW,Positive,Medium,Negative,Positive,Not mentioned,Positive,Positive,Not mentioned,Not mentioned,Medium,Positive,Positive,11130.0,7.0
+Fiat,Qubo,Medium,Negative,Not mentioned,Medium,Medium,Medium,Positive,Not mentioned,Negative,Negative,Not mentioned,Medium,"£1,995 - £4,695",4/10
+Fiat,Panda,Positive,Medium,Not mentioned,Positive,Negative,Positive,Positive,Medium,Medium,Not mentioned,Negative,Medium,14995.0,7.0
+Fiat,500 Electric Convertible,Positive,Negative,Not mentioned,Medium,Positive,Not mentioned,Negative,Not mentioned,Not mentioned,Not mentioned,Positive,Medium,31335.0,5.0
+Fiat,Panda Cross,Negative,Medium,Not mentioned,Positive,Negative,Negative,Positive,Negative,Negative,Medium,Not mentioned,Positive,9295.0,6.0
+Fiat,Punto,Positive,Medium,Not mentioned,Positive,Negative,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,9485.0,7.0
+Fiat,Tipo Station Wagon,Medium,Negative,Medium,Medium,Medium,Not mentioned,Positive,Not mentioned,Negative,Negative,Negative,Medium,10149.0,5.0
+Renault,Megane Sports Tourer,Positive,Medium,Positive,Positive,Medium,Not mentioned,Positive,Not mentioned,Not mentioned,Positive,Negative,Positive,18810.0,8.0
+Renault,Rafale,Medium,Positive,Medium,Negative,Positive,Negative,Medium,Not mentioned,Not mentioned,Not mentioned,Negative,Medium,38195.0,7/10
+Renault,Twingo,Negative,Medium,Positive,Negative,Medium,Medium,Positive,Medium,Positive,Medium,Not mentioned,Negative,8235.0,5/10
+Renault,Symbioz,Positive,Medium,Positive,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,Medium,Negative,Negative,29495.0,8.0
+Renault,Clio,Positive,Medium,Positive,Medium,Negative,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,8235.0,8.0
+Renault,Austral,Medium,Positive,Positive,Medium,Negative,Medium,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,34695.0,6.0
+Renault,Megane R.S.,Negative,Positive,Medium,Negative,Positive,Negative,Positive,Not mentioned,Not mentioned,Not mentioned,Negative,Medium,31315.0,5.0
+Renault,Megane R.S.,Negative,Positive,Medium,Negative,Positive,Negative,Positive,Not mentioned,Not mentioned,Not mentioned,Negative,Medium,31315.0,5.0
+Renault,5 E-Tech,Positive,Medium,Positive,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,"$22,995 (prices vary depending on location)",8/10
+Renault,5 E-Tech,Positive,Medium,Positive,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,"$22,995 (prices vary depending on location)",8/10
+Renault,Megane E-Tech Electric,Positive,Positive,Positive,Medium,Negative,Negative,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Negative,32495.0,6.0
+Renault,Grand Scenic,Positive,Negative,Medium,Positive,Positive,Not mentioned,Positive,Not mentioned,Positive,Negative,Medium,Positive,40230.0,8.0
+Renault,Megane,Positive,Medium,Positive,Positive,Negative,Not mentioned,Medium,Not mentioned,Positive,Positive,Negative,"{'Petrol': 'Positive', 'Diesel': 'Positive'}",17590.0,7.5
+Renault,Scenic,Medium,Positive,Positive,Medium,Negative,Medium,Positive,Not mentioned,Not mentioned,Medium,Not mentioned,Medium,37195.0,7/10
+Renault,Clio,Positive,Medium,Positive,Positive,Medium,Negative,Positive,Not mentioned,Positive,Medium,Negative,Positive,18995.0,7.0
+Renault,Kadjar,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Positive,Medium,Negative,Positive,5290.0,8.0
+Renault,Arkana,Negative,Medium,Positive,Negative,Not mentioned,Negative,Negative,Positive,Positive,Medium,Positive,Negative,27600.0,5.0
+Renault,Koleos,Medium,Mixed,Positive,Positive,Medium,Not mentioned,Positive,5-star Euro NCAP safety tests,Positive,Not mentioned,Not mentioned,Medium,28380.0,6.0
+Renault,Zoe,Positive,Positive,Medium,Positive,Positive,Negative,Negative,Positive,Negative,Positive,Negative,Medium,7882.0,8.0
+Citroen,e-C4,Positive,Medium,Not mentioned,Positive,Negative,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Not mentioned,Positive,27650.0,7.0
+Citroen,C3,Positive,Positive,Positive,Medium,Not mentioned,Not mentioned,Positive,Positive,Positive,Positive,Negative,Positive,18305.0,8.0
+Citroen,e-C3 Aircross,Positive,Medium,Not mentioned,Negative,Positive,Medium,Positive,Not mentioned,Not mentioned,Medium,Not mentioned,Negative,23095.0,6.0
+Citroen,Berlingo,Positive,Medium,Positive,Medium,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Positive,Medium,Positive,23220.0,7.0
+Citroen,e-C3,Positive,Medium,Negative,Positive,Not mentioned,Not mentioned,Positive,Positive,Positive,Medium,Not mentioned,Positive,21900.0,8.0
+Citroen,C4 SpaceTourer,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Positive,Positive,Not mentioned,Positive,Medium,Positive,21970.0,8.0
+Citroen,C5 Aircross,Positive,Medium,Negative,Positive,Not mentioned,Negative,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Medium,26885.0,7.0
+Citroen,SpaceTourer,Medium,Medium,Positive,Positive,Medium,Not mentioned,Positive,Not mentioned,Positive,Negative,Negative,Medium,39385.0,6.0
+Citroen,C1 Airscape,Medium,Positive,Negative,Medium,Negative,Not mentioned,Negative,Not mentioned,Not mentioned,Positive,Negative,Negative,10945.0,4.0
+Citroen,C5 X,Positive,Positive,Medium,Positive,Positive,Not mentioned,Positive,Positive,Positive,Positive,Negative,Medium,31355.0,8.0
+Citroen,e-SpaceTourer,Positive,Not mentioned,Positive,Positive,Positive,Medium,Positive,Not mentioned,Not mentioned,Not mentioned,Negative,Positive,37560.0,8.0
+Citroen,C3 Aircross,Mixed,Medium,Positive,Negative,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,Mixed,20605.0,6.0
+Citroen,C3 Picasso,Negative,Medium,Negative,Positive,Negative,Negative,Positive,Not mentioned,Not mentioned,Negative,Positive,Negative,13475.0,4.0
+Citroen,Holidays,Positive,Positive,Medium,Negative,Positive,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Positive,58335.0,7.0
+Citroen,C4 Cactus,Positive,Positive,Positive,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Negative,Positive,17115.0,7.0
+Citroen,Grand C4 SpaceTourer,Positive,Medium,Negative,Positive,Not mentioned,Positive,Positive,Positive,Positive,Positive,Negative,Positive,19645.0,7.0
+Citroen,Ami,Negative,Medium,Not mentioned,Positive,Negative,Positive,Negative,Medium,Medium,Negative,Negative,Negative,7705.0,4.0
+Citroen,e-Berlingo,Positive,Medium,Positive,Negative,Medium,Not mentioned,Positive,Positive,Positive,Medium,Negative,Positive,31240.0,6.0
+Citroen,e-C4 X,Medium,Positive,Positive,Positive,Negative,Not mentioned,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Medium,28115.0,6.0
+Citroen,C1,Positive,Medium,Positive,Negative,Medium,Positive,Negative,Not mentioned,Positive,Negative,Negative,Medium,9350.0,6.0
+Citroen,C4 X,Positive,Medium,Medium,Positive,Medium,Not mentioned,Negative,Not mentioned,Not mentioned,Not mentioned,Positive,Medium,19940.0,6.0
+Citroen,C4 X,Positive,Medium,Medium,Positive,Medium,Not mentioned,Negative,Not mentioned,Not mentioned,Not mentioned,Positive,Medium,19940.0,6.0
+Citroen,C3 Origin,Medium,Negative,Positive,Positive,Medium,Not mentioned,Medium,Not mentioned,Not mentioned,Negative,Medium,Positive,18025.0,6.0
+BMW,M3,Positive,Medium,Negative,Positive,Positive,Not mentioned,Negative,Positive,Positive,Positive,Medium,Positive,90285.0,8.0
+BMW,M4 Coupe,Positive,Medium,Positive,Negative,Positive,Positive,Medium,Not mentioned,Positive,Medium,Negative,Positive,91225.0,8.0
+BMW,2 Series Convertible,Positive,Medium,Positive,Positive,Negative,Positive,Negative,Not mentioned,Not mentioned,Positive,Negative,Medium,26455.0,8.0
+BMW,7 Series,Positive,Positive,Medium,Positive,Positive,Positive,Negative,Not mentioned,Positive,Positive,Medium,Positive,105620.0,8.0
+BMW,X7 M60i,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Positive,Medium,Negative,Positive,116910.0,8.0
+BMW,X4,Medium,Positive,Medium,Positive,Medium,Medium,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,54725.0,7.0
+BMW,4 Series Gran Coupe,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,46225.0,7.0
+BMW,X7,Positive,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Positive,Positive,Negative,Positive,92400.0,8.0
+BMW,3 Series Gran Turismo,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Medium,Negative,Positive,30385.0,7.0
+BMW,M5,Positive,Medium,Not mentioned,Positive,Negative,Medium,Positive,Negative,Not mentioned,Positive,Positive,Negative,111515.0,7.0
+BMW,M8 Convertible,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Positive,Positive,Positive,152450.0,8.0
+BMW,i5 Touring,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Not mentioned,Positive,Medium,Positive,Positive,69955.0,8.0
+BMW,8 Series,Positive,Positive,Medium,Positive,Positive,Negative,Positive,Not mentioned,Positive,Positive,Positive,Positive,87030.0,7.0
+BMW,M240i Convertible,Positive,Medium,Positive,Positive,Positive,Positive,Medium,Not mentioned,Not mentioned,Positive,Negative,Positive,40525.0,7.0
+BMW,iX2,Positive,Medium,Positive,Positive,Positive,Medium,Negative,Not mentioned,Not mentioned,Not mentioned,Positive,Positive,49365.0,7.0
+BMW,X5 M,Positive,Medium,Positive,Positive,Positive,Negative,Positive,Not mentioned,Positive,Positive,Negative,Positive,100535.0,8.0
+BMW,3 Series,Positive,Medium,Negative,Positive,Medium,Positive,Medium,Positive,Medium,Positive,Not mentioned,Positive,41220.0,8.0
+BMW,6 Series Convertible,Positive,Positive,Positive,Positive,Medium,Medium,Positive,Not mentioned,Positive,Positive,Negative,Positive,69300.0,7.0
+BMW,X1,Positive,Medium,Negative,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Medium,Negative,Positive,36330.0,8.0
+BMW,4 Series Convertible,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Positive,Positive,56990.0,8.0
+BMW,M240i,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Positive,Medium,Positive,Positive,49970.0,9.0
+BMW,M240i,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Positive,Medium,Positive,Positive,49970.0,9.0
+BMW,X6,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Positive,Medium,Positive,Positive,79690.0,7.0
+BMW,i7,Positive,Medium,Positive,Positive,Medium,Medium,Negative,Not mentioned,Positive,Medium,Negative,Positive,101775.0,8.0
+BMW,M4 Convertible,Positive,Positive,Medium,Positive,Positive,Medium,Negative,Positive,Positive,Medium,Negative,Positive,95330.0,7.0
+BMW,X5 M Competition,Positive,Medium,Positive,Positive,Negative,Medium,Positive,Not mentioned,Positive,Positive,Medium,Negative,134480.0,7.0
+BMW,6 Series Gran Coupe,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Positive,Medium,Negative,Positive,62470.0,8.0
+BMW,X3,Medium,Negative,Positive,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Negative,Medium,Positive,50185.0,7.0
+BMW,M2,Positive,Medium,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Positive,Positive,Positive,68705.0,8.0
+BMW,i8,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Positive,Negative,Positive,106420.0,8.0
+BMW,1 Series,Positive,Positive,Medium,Negative,Positive,Positive,Not mentioned,Medium,Positive,Positive,Negative,Positive,31275.0,8.0
+BMW,5 Series,Negative,Positive,Positive,Medium,Negative,Negative,Medium,Not mentioned,Not mentioned,Positive,Medium,Negative,52195.0,8.0
+BMW,i4,Positive,Positive,Positive,Medium,Positive,Positive,Medium,Positive,Not mentioned,Positive,Negative,Positive,51880.0,8.0
+BMW,M8,Positive,Medium,Positive,Positive,Negative,Positive,Not mentioned,Not mentioned,Not mentioned,Medium,Positive,Positive,145450.0,8.0
+BMW,6 Series Gran Turismo,Positive,Medium,Not mentioned,Positive,Positive,Medium,Positive,Not mentioned,Not mentioned,Positive,Negative,Positive,45890.0,7.0
+BMW,X6M,Positive,Medium,Positive,Negative,Positive,Medium,Not mentioned,Not mentioned,Positive,Positive,Medium,Positive,14900.0,8.0
+BMW,i3,Positive,Medium,Positive,Negative,Positive,Not mentioned,Negative,Not mentioned,Medium,Medium,Negative,Positive,30990.0,8.0
+BMW,M6,Positive,Positive,Not mentioned,Positive,Negative,Medium,Negative,Not mentioned,Positive,Positive,Medium,Medium,14900.0,7.0
+BMW,i8 Roadster,Positive,Positive,Positive,Positive,Medium,Positive,Negative,Positive,Positive,Not mentioned,Negative,Positive,127215.0,8.0
+BMW,X5,Positive,Positive,Medium,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Positive,Negative,Medium,68135.0,9.0
+BMW,4 Series,Positive,Medium,Positive,Negative,Positive,Positive,Medium,Not mentioned,Not mentioned,Positive,Positive,Positive,45195.0,8.0
+BMW,3 Series Touring,Positive,Positive,Positive,Medium,Negative,Not mentioned,Positive,Not mentioned,Positive,Positive,Medium,Positive,43840.0,8.0
+BMW,iX,Positive,Medium,Positive,Positive,Negative,Positive,Medium,Not mentioned,Not mentioned,Top-notch,Lovely and quiet,Negative,70995.0,8.0
+BMW,M3,Positive,Medium,Positive,Medium,Positive,Medium,Medium,Not mentioned,Positive,Positive,Negative,Positive,84185.0,9.0
+BMW,2 Series Active Tourer,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Negative,Positive,34895.0,8.0
+BMW,8 Series Gran Coupe,Negative,Positive,Not mentioned,Medium,Negative,Not mentioned,Positive,Not mentioned,Positive,Positive,Medium,Positive,84630.0,7.0
+BMW,M135i,Positive,Medium,Positive,Positive,Negative,Positive,Positive,Not mentioned,Not mentioned,Medium,Positive,Negative,42560.0,6.0
+BMW,M5,Positive,Medium,Negative,Positive,Positive,Positive,Medium,Not mentioned,Not mentioned,Not mentioned,Negative,Positive,113515.0,8.0
+BMW,X6 M Competition,Positive,Medium,Positive,Medium,Positive,Negative,Not mentioned,Positive,Not mentioned,Positive,Positive,Positive,137190.0,8.0
+BMW,2 Series Gran Tourer,Positive,Medium,Positive,Positive,Positive,Not mentioned,Negative,Positive,Positive,Medium,Not mentioned,Positive,25860.0,7.0
+BMW,2 Series Gran Coupe,Positive,Positive,Positive,Positive,Medium,Positive,Negative,Not mentioned,Not mentioned,Positive,Medium,Positive,33335.0,6.0
+BMW,8 Series Convertible,Positive,Medium,Positive,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,High-quality,Not mentioned,Positive,94000.0,7.0
+BMW,2 Series Coupe,Positive,Medium,Positive,Negative,Positive,Not mentioned,Negative,Not mentioned,Not mentioned,Medium,Medium,Positive,38900.0,8.0
+BMW,X2,Positive,Medium,Negative,Medium,Positive,Positive,Medium,Not mentioned,Positive,Medium,Negative,Positive,42750.0,6.0
+BMW,XM,Medium,Positive,Not mentioned,Medium,Positive,Negative,Positive,Positive,Positive,Medium,Medium,Not mentioned,110840.0,6.0
+BMW,iX1,Positive,Medium,Negative,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Positive,Negative,Positive,43215.0,8.0
+BMW,i5,Positive,Medium,Positive,Positive,Positive,Negative,Not mentioned,Positive,Positive,Medium,Negative,Positive,67705.0,8.0
+BMW,Z4,Positive,Medium,Positive,Medium,Negative,Negative,Medium,Not mentioned,Not mentioned,Positive,Medium,Positive,46410.0,8.0
+BMW,Z4,Positive,Medium,Positive,Medium,Negative,Negative,Medium,Not mentioned,Not mentioned,Positive,Medium,Positive,46410.0,8.0
+BMW,X4 M Competition,Positive,Positive,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Positive,Not mentioned,Positive,97905.0,7.0
+BMW,X3 M Competition,Positive,Positive,Positive,Positive,Positive,Positive,Medium,Not mentioned,Positive,Positive,Negative,Positive,42208.0,8.0
+BMW,5 Series Touring,Negative,Positive,Medium,Medium,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Negative,Not mentioned,Medium,54445.0,6.0
+Peugeot,Rifter,Negative,Medium,Positive,Medium,Negative,Not mentioned,Positive,Positive,Positive,Negative,Negative,Medium,26225.0,4.0
+Peugeot,e-208,Medium,Positive,Positive,Negative,Medium,Positive,Medium,Not mentioned,Not mentioned,Positive,Not mentioned,Negative,30050.0,7.0
+Peugeot,e-Rifter,Negative,Medium,Not mentioned,Positive,Negative,Medium,Positive,Not mentioned,Not mentioned,Medium,Negative,Negative,32250.0,4.5
+Peugeot,208,Positive,Medium,Positive,Positive,Negative,Positive,Negative,Not mentioned,Not mentioned,Positive,Negative,Positive,19995.0,7.0
+Peugeot,508,Positive,Medium,Positive,Negative,Positive,Positive,Medium,Not mentioned,Not mentioned,Negative,Not mentioned,Positive,46920.0,7.0
+Peugeot,408,Positive,Medium,Positive,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,Medium,Negative,Positive,35165.0,7.0
+Peugeot,308 GTi,Positive,Negative,Medium,Medium,Positive,Negative,Positive,Not mentioned,Not mentioned,Negative,Positive,Positive,32925.0,6.0
+Peugeot,e-308,Positive,Positive,Positive,Positive,Medium,Positive,Positive,Not mentioned,Positive,Positive,Medium,Negative,38460.0,7.0
+Peugeot,108 TOP,Positive,Medium,Positive,Negative,Medium,Positive,Negative,Not mentioned,Negative,Not mentioned,Negative,Medium,11115.0,4.0
+Peugeot,E-2008,Medium,Positive,Medium,Positive,Medium,Not mentioned,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Medium,34110.0,6.0
+Peugeot,208 GTi,Positive,Positive,Not mentioned,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Positive,Positive,20490.0,8.0
+Peugeot,3008,Medium,Positive,Negative,Positive,Medium,Not mentioned,Medium,Positive,Positive,Positive,Not mentioned,Medium,36790.0,6.0
+Peugeot,E-408,Positive,Medium,Not mentioned,Positive,Negative,Not mentioned,Positive,Medium,Positive,Medium,Not mentioned,Medium,42185.0,7.0
+Peugeot,E-3008,Medium,Positive,Positive,Positive,Negative,Negative,Negative,Not mentioned,Not mentioned,Positive,Medium,Negative,45960.0,7.0
+Peugeot,2008,Positive,Medium,Positive,Medium,Positive,Medium,Positive,Not mentioned,Positive,Medium,Negative,Positive,27050.0,8.0
+Peugeot,Partner Tepee,Positive,Medium,Not mentioned,Negative,Not mentioned,Medium,Positive,Medium,Positive,Medium,Negative,Not mentioned,8570.0,5.0
+Peugeot,508,Positive,Medium,Negative,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,Medium,Negative,Positive,48120.0,8.0
+Peugeot,308 SW,Positive,Medium,Positive,Negative,Medium,Not mentioned,Positive,Not mentioned,Positive,Not mentioned,Negative,Negative,31865.0,7.0
+Peugeot,e-Traveller,Positive,Medium,Not mentioned,Positive,Medium,Not mentioned,Positive,Medium,Positive,Medium,Not mentioned,Positive,48925.0,8.0
+Peugeot,E-5008,Positive,Positive,Medium,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Positive,Negative,Not mentioned,48660.0,8.0
+Peugeot,108,Medium,Positive,Positive,Positive,Negative,Not mentioned,Negative,Medium,Positive,Positive,Medium,Negative,4280.0,5.0
+Peugeot,308,Positive,Medium,Not mentioned,Positive,Not mentioned,Not mentioned,Positive,Medium,Positive,Medium,Negative,Positive,32425.0,7.0
+Peugeot,508,Positive,Positive,Positive,Medium,Positive,Positive,Medium,Positive,Positive,Positive,Negative,Positive,53400.0,8.0
+Peugeot,Traveller,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Medium,Medium,Medium,Negative,Negative,17599.0,6.0
+Peugeot,e-308 SW,Positive,Medium,Not mentioned,Medium,Negative,Not mentioned,Positive,Not mentioned,Positive,Medium,Not mentioned,Medium,39600.0,8.0
+Peugeot,5008,Positive,Positive,Medium,Positive,Not mentioned,Not mentioned,Medium,Positive,Positive,Positive,Not mentioned,Positive,39490.0,8.0
+BYD,Seal,Positive,Medium,Negative,Positive,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Negative,Positive,45000.0,8.0
+BYD,Atto 3,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Negative,Not mentioned,Positive,Positive,Negative,Not mentioned,37075.0,6.0
+BYD,Seal U,Negative,Positive,Medium,Medium,Positive,Negative,Medium,Not mentioned,Not mentioned,Not mentioned,Negative,Positive,33315.0,4.0
+BYD,Sealion 7,Negative,Positive,Medium,Medium,Positive,Negative,Positive,Not mentioned,Not mentioned,Negative,Negative,Negative,47000.0,6.0
+BYD,Dolphin,Positive,Medium,Positive,Positive,Negative,Medium,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Medium,26205.0,8.0
+GWM,Ora 03,Medium,Positive,Positive,Positive,Negative,Positive,Negative,Not mentioned,Positive,Positive,Negative,Medium,25005.0,6.0
+Haval,Jolion Pro,Negative,Medium,Negative,Positive,Negative,Not mentioned,Negative,Medium,Not mentioned,Medium,Negative,Negative,24275.0,5.0
+Jaecoo,7,Medium,Positive,Positive,Medium,Negative,Not mentioned,Negative,Medium,Positive,Positive,Negative,Positive,30115.0,6.5
+Jaecoo,7,Medium,Positive,Positive,Medium,Negative,Not mentioned,Negative,Medium,Positive,Positive,Negative,Positive,30115.0,6.5
+Leapmotor,C10,Not mentioned,Positive,Positive,Medium,Negative,Not mentioned,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Negative,36500.0,7.0
+MG,ZS,Positive,Medium,Positive,Negative,Medium,Not mentioned,Positive,Not mentioned,Negative,Not mentioned,Negative,Medium,18605.0,6.0
+MG,GS,Negative,Negative,Medium,Not mentioned,Positive,Negative,Positive,Not mentioned,Negative,Negative,Negative,Positive,15430.0,5.0
+MG,ZS EV,Medium,Negative,Positive,Medium,Medium,Medium,Positive,Not mentioned,Not mentioned,Negative,Negative,Not mentioned,30505.0,7.0
+MG,MG3,Positive,Medium,Positive,Not mentioned,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Not mentioned,Positive,16995.0,8.0
+MG,5 EV,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,Positive,Not mentioned,Negative,31005.0,6.0
+MG,S5 EV,Positive,Positive,Medium,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Negative,Positive,28495.0,8.0
+MG,HS,Medium,Negative,Negative,Positive,Medium,Medium,Positive,Not mentioned,Not mentioned,Negative,Not mentioned,Positive,25995.0,6.0
+Xpeng,G6,Negative,Positive,Positive,Medium,Medium,Negative,Positive,Not mentioned,Not mentioned,Positive,Negative,Negative,40000.0,7.0
+MG,ZS,Medium,Medium,Negative,Positive,Positive,Medium,Positive,Medium,Medium,Medium,Negative,Negative,19995.0,7.0
+MG,ZS,Medium,Medium,Negative,Positive,Positive,Medium,Positive,Medium,Medium,Medium,Negative,Negative,19995.0,7.0
+MG,Cyberster,Positive,Medium,Negative,Positive,Positive,Not mentioned,Positive,Not mentioned,Positive,Medium,Positive,Negative,54995.0,8.0
+Omoda,OMODA 5,Negative,Medium,Not mentioned,Medium,Positive,Not mentioned,Negative,Not mentioned,Not mentioned,Not mentioned,Positive,Negative,25915.0,4.0
+Omoda,E5,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Negative,Not mentioned,Not mentioned,Positive,Negative,Not mentioned,33065.0,5.0
+Omoda,9,Positive,Medium,Not mentioned,Positive,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Medium,Negative,Positive,44990.0,8.0
+Volkswagen,Golf GTE,Positive,Medium,Positive,Medium,Positive,Negative,Medium,Positive,Not mentioned,Positive,Negative,Positive,40140.0,8.0
+Volkswagen,ID4,Positive,Medium,Medium,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Not mentioned,Negative,39590.0,7.0
+Volkswagen,Golf R,Positive,Medium,Medium,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,46600.0,8.0
+Volkswagen,Touareg R,Negative,Positive,Medium,Positive,Negative,Not mentioned,Negative,Positive,Positive,Not mentioned,Positive,Negative,82950.0,6.0
+Volkswagen,Polo GTI,Positive,Positive,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Positive,Not mentioned,Positive,30740.0,8.0
+Volkswagen,ID.5,Negative,Medium,Positive,Positive,Negative,Not mentioned,Positive,Medium,Positive,Negative,Not mentioned,Medium,41090.0,6.0
+Volkswagen,Passat,Medium,Positive,Positive,Positive,Not mentioned,Not mentioned,Positive,Positive,Positive,Positive,Negative,Positive,39840.0,8/10
+Volkswagen,Touran,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Positive,Not mentioned,Positive,39135.0,8.0
+Volkswagen,ID7 Tourer,Positive,Medium,Negative,Positive,Positive,Not mentioned,Positive,Positive,Positive,Medium,Not mentioned,Positive,51995.0,8.0
+Volkswagen,T-Cross,Positive,Positive,Not mentioned,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Positive,25115.0,8.0
+Volkswagen,Polo,Medium,Positive,Negative,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Positive,Negative,Medium,21470.0,6.0
+Volkswagen,T-Roc,Positive,Medium,Not mentioned,Positive,Positive,Positive,Medium,Positive,Positive,Medium,Not mentioned,Positive,28825.0,7.0
+Volkswagen,Taigo,Medium,Medium,Medium,Positive,Medium,Medium,Positive,Positive,Positive,Medium,Negative,Medium,24770.0,7.0
+Volkswagen,ID7,Positive,Positive,Medium,Positive,Positive,Not mentioned,Positive,Positive,Positive,Positive,Negative,Positive,51005.0,8.0
+Volkswagen,ID.3,Positive,Medium,Negative,Positive,Neutral,Positive,Positive,Positive,Positive,Medium,Negative,Neutral,30686.0,7.0
+Volkswagen,Golf GTI,Positive,Medium,Positive,Positive,Negative,Positive,Positive,Not mentioned,Not mentioned,Positive,Negative,Medium,40335.0,7.0
+Volkswagen,Tayron,Positive,Positive,Positive,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Positive,Negative,Positive,40130.0,8.0
+Volkswagen,Multivan,Positive,Medium,Positive,Medium,Positive,Negative,Positive,Positive,Positive,Positive,Not mentioned,Positive,49613.0,7.0
+Volkswagen,Tiguan,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Positive,Positive,"{'£35,385'}",8/10
+Volkswagen,Golf,Positive,Medium,Positive,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Positive,28010.0,8.0
+Volkswagen,ID.Buzz,Positive,"{'Style': 'Medium', 'GTX': 'Negative'}",Negative,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Medium,"{'Style': 'Medium', 'GTX': 'Negative'}","{'Style': 'Positive', 'GTX': 'Negative'}","{'Style': 'Not mentioned', 'GTX': 'Not mentioned'}",59135.0,"{'Style': 8, 'GTX': 6}"
+Volkswagen,T-Roc R,Positive,Medium,Not mentioned,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,Not applicable,7.0
+Volkswagen,Touareg,Positive,Medium,Positive,Positive,Positive,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Positive,Positive,71390.0,6.0
+Volkswagen,T-Roc Cabriolet,Positive,Positive,Positive,Medium,Not mentioned,Not mentioned,Negative,Not mentioned,Positive,Positive,Not mentioned,Medium,35675.0,7.0
+Dacia,Jogger,Medium,Positive,Negative,Positive,Medium,Not mentioned,Positive,Not mentioned,Not mentioned,Positive,Negative,Medium,18970.0,7.0
+Dacia,Logan MCV Stepway,Positive,Medium,Positive,Not mentioned,Positive,Not mentioned,Positive,Not mentioned,Positive,Positive,Not mentioned,Positive,12370.0,8.0
+Dacia,Logan MCV,Negative,Medium,Positive,Medium,Not mentioned,Negative,Positive,Not mentioned,Medium,Negative,Negative,Negative,7405.0,4.0
+Dacia,Spring,Positive,Medium,Positive,Positive,Positive,Not mentioned,Positive,Positive,Positive,Negative,Not mentioned,Medium,14995.0,7.0
+Dacia,Sandero,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Negative,Positive,14215.0,7.0
+Dacia,Sandero Stepway,Medium,Positive,Not mentioned,Positive,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,Not mentioned,Negative,16015.0,6.0
+Dacia,Duster,Positive,Medium,Positive,Medium,Negative,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Medium,19380.0,8.5
+Dacia,Bigster,Positive,Negative,Medium,Medium,Positive,Not mentioned,Positive,Not mentioned,Not mentioned,Negative,Not mentioned,Positive,25215.0,8.0
+Fiat,500C,Negative,Medium,Not mentioned,Medium,Negative,Not mentioned,Negative,Not mentioned,Not mentioned,Negative,Positive,Negative,4495.0,4.0
+Fiat,Tipo,Positive,Medium,Positive,Not mentioned,Negative,Not mentioned,Positive,Not mentioned,Medium,Medium,Negative,Positive,4790.0,7.0
+Fiat,Panda 4x4,Positive,Medium,Negative,Positive,Positive,Positive,Medium,Not mentioned,Negative,Not mentioned,Not mentioned,Positive,15435.0,7.0
+Fiat,500X Dolcevita Hatchback,Positive,Medium,Positive,Medium,Not mentioned,Not mentioned,Negative,Not mentioned,Not mentioned,Negative,Positive,Not mentioned,32855.0,5.0
+Fiat,500L,Medium,Negative,Not mentioned,Medium,Not mentioned,Not mentioned,Positive,Medium,Not mentioned,Negative,Negative,Not mentioned,14970.0,4.0
+Fiat,500e,Electric,Positive,Positive,Medium,Positive,Not mentioned,Negative,Positive,Positive,Positive,Not mentioned,Positive,25035.0,7.0
+Fiat,600e,Positive,Medium,Negative,Positive,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Positive,Positive,29335.0,7.0
+Fiat,124 Spider,Positive,Medium,Not mentioned,Positive,Negative,Medium,Negative,Medium,Not mentioned,Medium,Not mentioned,Mixed,21390.0,7.0
+Fiat,500X,Positive,Medium,Negative,Positive,Negative,Positive,Positive,Not mentioned,Positive,Medium,Negative,Medium,30205.0,4.0
+Fiat,600,Positive,Negative,Medium,Positive,Positive,Positive,Negative,Not mentioned,Not mentioned,Not mentioned,Not mentioned,Positive,25105.0,6.0
+Fiat,500,Positive,Medium,Negative,Negative,Positive,Not mentioned,Positive,Not mentioned,Negative,Not mentioned,Negative,Positive,17995.0,6.0
+Fiat,500L MPW,Positive,Medium,Negative,Positive,Not mentioned,Positive,Positive,Not mentioned,Not mentioned,Medium,Positive,Negative,11310.0,7.0
+Fiat,500L MPW,Positive,Medium,Negative,Positive,Not mentioned,Positive,Positive,Not mentioned,Not mentioned,Medium,Positive,Negative,11310.0,7.0
+Fiat,Panda,Positive,Medium,Not mentioned,Positive,Negative,Not mentioned,Positive,Medium,Positive,Medium,Not mentioned,Negative,14995.0,6.0
+Fiat,Panda,Positive,Medium,Not mentioned,Positive,Negative,Not mentioned,Positive,Medium,Positive,Medium,Not mentioned,Negative,14995.0,6.0
+Fiat,Panda Cross,Positive,Medium,Negative,Positive,Not mentioned,Negative,Positive,Not mentioned,Negative,Negative,Not mentioned,Medium,9295.0,7.0
+Fiat,Punto,Positive,Medium,Not mentioned,Negative,Not mentioned,Not mentioned,Not mentioned,Positive,Not mentioned,Medium,Negative,Not mentioned,98485.0,6.0
+Fiat,Tipo Station Wagon,Negative,Medium,Negative,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Negative,Medium,Negative,Negative,10149.0,5.0
+Renault,Megane Sports Tourer,Positive,Medium,Positive,Positive,Medium,Not mentioned,Positive,Medium,Not mentioned,Positive,Not mentioned,Positive,18790.0,7.0
+Renault,Rafale,Mixed,Positive,Positive,Medium,Negative,Positive,Not mentioned,Not mentioned,Not mentioned,Not mentioned,Negative,Negative,38195.0,7.0
+Renault,Twingo,Negative,Positive,Not mentioned,Medium,Medium,Medium,Positive,4-star Euro NCAP rating,Euro NCAP rated as good (4 stars),Not mentioned,Not mentioned,Negative,8235.0,5.0
+Renault,Symbioz,Medium,Positive,Positive,Negative,Medium,Medium,Positive,Not mentioned,Not mentioned,Positive,Medium,Negative,29495.0,8.0
+Renault,Clio RenaultSport,Positive,Medium,Not mentioned,Negative,Positive,Positive,Negative,Medium,Positive,Medium,Positive,Positive,8235.0,6.0
+Renault,Austral,Medium,Positive,Positive,Medium,Negative,Not mentioned,Negative,Not mentioned,Positive,Medium,Negative,Negative,36995.0,7.0
+Renault,Megane R.S.,Negative,Positive,Medium,Negative,Positive,Negative,Positive,Not mentioned,Not mentioned,Positive,Medium,Not mentioned,31315.0,4.0
+Renault,Scenic,Positive,Positive,Not mentioned,Medium,Positive,Positive,Positive,Positive,Positive,Positive,Not mentioned,Positive,21885.0,8.0
+Renault,Renault 5 E-Tech,Positive,Positive,Positive,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Not mentioned,Negative,Positive,22995.0,8/10
+Renault,Captur,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Not mentioned,Negative,Medium,22295.0,7.0
+Renault,Captur,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Not mentioned,Negative,Medium,22295.0,7.0
+Renault,Grand Scenic,Positive,Medium,Negative,Positive,Positive,Positive,Positive,Not mentioned,Positive,Medium,Negative,Positive,40230.0,8.0
+Renault,Megane,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Positive,Medium,Negative,Positive,17590.0,7.0
+Renault,Scenic,Negative,Medium,Positive,Medium,Negative,Not mentioned,Positive,Not mentioned,Not mentioned,Not mentioned,Medium,Negative,37195.0,6.0
+Renault,Clio,Positive,Positive,Medium,Negative,Positive,Negative,Positive,Not mentioned,Not mentioned,Positive,Medium,Positive,18995.0,8.0
+Renault,Kadjar,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Negative,Medium,Negative,Positive,5290.0,7.0
+Renault,Arkana,Negative,Medium,Positive,Medium,Negative,Negative,Negative,Not mentioned,Not mentioned,Positive,Negative,Negative,27600.0,5.0
+Renault,Koleos,Positive,Mixed,R-LINK 2 infotainment system,Positive,Positive,Not mentioned,Positive,Positive,Positive,Mixed,Soft,2.0-litre diesel engine (177hp),28380.0,6.0
+Renault,Zoe,Positive,Positive,Positive,Medium,Positive,Negative,Negative,Medium,Medium,Positive,Negative,Negative,7892.0,7.0
+Citroen,e-C4,Medium,Positive,Not mentioned,Positive,Negative,Medium,Positive,Medium,Not mentioned,Positive,Medium,Positive,27650.0,6.0
+Citroen,e-C4,Medium,Positive,Not mentioned,Positive,Negative,Medium,Positive,Medium,Not mentioned,Positive,Medium,Positive,27650.0,6.0
+Citroen,e-C3 Aircross,Medium,Positive,Not mentioned,Medium,Negative,Not mentioned,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Medium,23095.0,6.0
+Citroen,Berlingo,Medium,Medium,Positive,Medium,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Not mentioned,Negative,Medium,23320.0,6.0
+Citroen,e-C3,Positive,Medium,Negative,Positive,Medium,Not mentioned,Positive,Medium,Positive,Medium,Not mentioned,Negative,22095.0,8.0
+Citroen,C4 SpaceTourer,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Positive,Positive,Positive,Positive,Medium,Positive,21970.0,8.0
+Citroen,C5 Aircross,Positive,Medium,Negative,Positive,Negative,Negative,Positive,Not mentioned,Not mentioned,Medium,Not mentioned,Medium,24685.0,8.0
+Citroen,SpaceTourer,Medium,Not mentioned,Positive,Positive,Medium,Not mentioned,Positive,Positive,Positive,Negative,Negative,Negative,39385.0,6.0
+Citroen,C1 Airscape,Negative,Medium,Negative,Negative,Negative,Not mentioned,Negative,Not mentioned,Not mentioned,Not mentioned,Positive,Negative,99945.0,4.0
+Citroen,C5 X,Positive,Medium,Negative,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Not mentioned,Negative,Positive,31355.0,8.0
+Citroen,e-SpaceTourer,Medium,Positive,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Positive,Negative,Positive,37560.0,8.0
+Citroen,C3 Aircross,Negative,Medium,Positive,Medium,Medium,Not mentioned,Positive,Not mentioned,Not mentioned,Negative,Negative,Medium,20605.0,6.0
+Citroen,C3 Picasso,Negative,Medium,Negative,Positive,Negative,Negative,Positive,Not mentioned,Not mentioned,Medium,Positive,Negative,13475.0,4.0
+Citroen,Holidays,Positive,Positive,Medium,Positive,Positive,Not mentioned,Positive,Positive,Positive,Positive,Negative,Positive,58335.0,8.0
+Citroen,C4 Cactus,Positive,Medium,Positive,Negative,Medium,Not mentioned,Negative,Positive,Positive,Medium,Negative,Positive,17515.0,6.0
+Citroen,Grand C4 SpaceTourer,Positive,Medium,Negative,Positive,Positive,Medium,Positive,Positive,Positive,Positive,Not mentioned,Positive,19645.0,7.0
+Citroen,Ami,Negative,Medium,Not mentioned,Positive,Negative,Positive,Negative,Unknown,Unknown,Medium,Positive,Not mentioned,7705.0,4.0
+Citroen,e-Berlingo,Positive,Medium,Not mentioned,Negative,Medium,Not mentioned,Positive,Positive,Positive,Negative,Not mentioned,Positive,31240.0,7.0
+Citroen,e-C4 X,Medium,Positive,Positive,Medium,Negative,Not mentioned,Medium,Medium,Positive,Positive,Not mentioned,Medium,28715.0,7.0
+Citroen,C1,Positive,Medium,Not mentioned,Negative,Positive,Not mentioned,Negative,Positive,Positive,Medium,Negative,Positive,9330.0,6.0
+Citroen,C4 X,Positive,Medium,Negative,Positive,Reasonable,Not mentioned,Limited,Not mentioned,Not mentioned,Medium,Uncomfortable,Reasonable,19940.0,6.0
+Citroen,C4,Medium,Positive,Negative,Positive,Medium,Not mentioned,Negative,Not mentioned,Not mentioned,Negative,Negative,Negative,19940.0,6.0
+Citroen,C3 Origin,Medium,Negative,Positive,Positive,Medium,Not mentioned,Positive,Not mentioned,Not mentioned,Negative,Positive,Positive,18225.0,6.0
+BMW,M3 Touring,Positive,Medium,Negative,Positive,Positive,Not mentioned,Positive,Positive,Positive,Positive,Medium,Positive,90285.0,8.0
+BMW,M4 Coupe,Positive,Medium,Not mentioned,Positive,Negative,Positive,Positive,Not mentioned,Not mentioned,Medium,Positive,Negative,91325.0,7.0
+BMW,2 Series Convertible,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Positive,Positive,Medium,Negative,26455.0,7.0
+BMW,7 Series,Positive,Medium,Positive,Positive,Positive,Positive,Medium,Not mentioned,Positive,Positive,Negative,Positive,105620.0,8.0
+BMW,X7 M60i,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Medium,Not mentioned,Positive,116910.0,8.0
+BMW,X4,Medium,Positive,Medium,Positive,Negative,Medium,Negative,Positive,Not mentioned,Positive,Not mentioned,Negative,54725.0,7.0
+BMW,4 Series Gran Coupe,Positive,Medium,Positive,Positive,Positive,Positive,Medium,Not mentioned,Positive,Positive,Negative,Positive,46925.0,8.0
+BMW,X7,Positive,Positive,Medium,Positive,Negative,Not mentioned,Positive,Positive,Positive,Positive,Negative,Medium,92160.0,9.0
+BMW,3 Series Gran Turismo,Medium,Positive,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Positive,Not mentioned,Positive,30385.0,8.0
+BMW,M5,Positive,Medium,Not mentioned,Medium,Negative,Positive,Positive,Positive,Positive,Positive,Positive,Positive,111515.0,7.0
+BMW,M8 Convertible,Positive,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Not mentioned,Not mentioned,Positive,Negative,Positive,152450.0,8.0
+BMW,i5 Touring,Positive,Positive,Medium,Positive,Not mentioned,Positive,Positive,Positive,Positive,Positive,Negative,Medium,69955.0,9.0
+BMW,8 Series,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Negative,Medium,Negative,Positive,87030.0,7.0
+BMW,M240i Convertible,Positive,Medium,Positive,Negative,Positive,Medium,Negative,Not mentioned,Positive,Medium,Negative,Positive,40525.0,6.0
+BMW,iX2,Positive,Medium,Positive,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Not mentioned,Positive,49365.0,7.0
+BMW,X5 M,Positive,Medium,Positive,Medium,Negative,Negative,Medium,Positive,Positive,Medium,Not mentioned,Negative,103535.0,8.0
+BMW,3 Series,Positive,Medium,Negative,Positive,Positive,Positive,Medium,Positive,Not mentioned,Positive,Negative,Positive,41320.0,8.0
+BMW,6 Series Convertible,Positive,Medium,Not mentioned,Positive,Positive,Medium,Positive,Positive,Positive,Medium,Negative,Positive,69600.0,6.0
+BMW,X1,Positive,Medium,Negative,Positive,Positive,Positive,Positive,Positive,Positive,Positive,Medium,Positive,36430.0,8.0
+BMW,4 Series Convertible,Positive,Positive,Positive,Positive,Positive,Positive,Medium,Not mentioned,Not mentioned,Positive,Negative,Positive,52690.0,8.0
+BMW,M240i,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Positive,Positive,Medium,Positive,49970.0,9.0
+BMW,M8 Gran Coupe,Negative,Positive,Positive,Medium,Positive,Negative,Negative,Not mentioned,Not mentioned,Not mentioned,Negative,Positive,142950.0,4.0
+BMW,X6,Positive,Positive,Medium,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Negative,Positive,79490.0,8.0
+BMW,i7,Positive,Medium,Positive,Positive,Positive,Not mentioned,Negative,Not mentioned,Not mentioned,Medium,Medium,Positive,101775.0,8.0
+BMW,M4 Convertible,Positive,Medium,Negative,Positive,Positive,Negative,Negative,Not mentioned,Positive,Medium,Not mentioned,Positive,95330.0,7.0
+BMW,X5 M Competition,Positive,Medium,Medium,Medium,Negative,Negative,Positive,Not mentioned,Not mentioned,Positive,Negative,Negative,134480.0,8.0
+BMW,6 Series Gran Coupe,Positive,Medium,Positive,Medium,Positive,Positive,Negative,Positive,Positive,Positive,Not mentioned,Positive,62470.0,8.0
+BMW,X3,Positive,Negative,Medium,Negative,Positive,Positive,Negative,Positive,Positive,Negative,Not mentioned,Positive,50185.0,6.0
+BMW,M2,Positive,Medium,Positive,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Positive,Positive,68705.0,8.0
+BMW,i8,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Medium,Negative,Positive,106420.0,7.0
+BMW,1 Series,Positive,Positive,Medium,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Medium,Positive,31875.0,8.0
+BMW,5 Series,Medium,Positive,Positive,Positive,Negative,Not mentioned,Medium,Not mentioned,Not mentioned,Positive,Medium,Negative,52195.0,8.0
+BMW,i4,Positive,Positive,Positive,Medium,Positive,Positive,Medium,Not mentioned,Positive,Positive,Negative,Positive,51280.0,8/10
+BMW,M8,Positive,Positive,Medium,Medium,Positive,Positive,Negative,Not mentioned,Positive,Positive,Positive,Positive,145450.0,8.0
+BMW,6 Series Gran Turismo,Positive,Medium,Not mentioned,Positive,Positive,Positive,Positive,Positive,Positive,Medium,Not mentioned,Positive,45890.0,7.0
+BMW,X6M,Positive,Positive,Not mentioned,Medium,Positive,Positive,Negative,Positive,Positive,Positive,Negative,Positive,14900.0,8.0
+BMW,i3,Positive,Medium,Positive,Negative,Positive,Not mentioned,Negative,Not mentioned,Negative,Medium,Negative,Positive,30990.0,7.0
+BMW,M6,Positive,Positive,Positive,Medium,Negative,Not mentioned,Negative,Not mentioned,Positive,Positive,Negative,Negative,14900.0,6.0
+BMW,i8 Roadster,Positive,Positive,Positive,Positive,Positive,Not mentioned,Medium,Positive,Positive,Positive,Negative,Positive,127215.0,8.0
+BMW,X5,Positive,Medium,Medium,Positive,Negative,Positive,Positive,Not mentioned,Not mentioned,Positive,Medium,Positive,68135.0,8.0
+BMW,4-Series,Positive,Medium,Positive,Negative,Positive,Positive,Medium,Not mentioned,Positive,Positive,Negative,Positive,45790.0,8.0
+BMW,3 Series Touring,Positive,Medium,Positive,Positive,Negative,Positive,Positive,Not mentioned,Positive,Medium,Not mentioned,Positive,43840.0,8.0
+BMW,iX,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Top notch,Lovely and quiet,610hp,70995.0,9.0
+BMW,M3,Positive,Positive,Medium,Medium,Negative,Medium,Negative,Not mentioned,Not mentioned,Positive,Negative,Negative,84185.0,8.0
+BMW,2 Series Active Tourer,Positive,Positive,Medium,Positive,Not mentioned,Not mentioned,Positive,Positive,Positive,Positive,Negative,Medium,34895.0,7.0
+BMW,8 Series Gran Coupe,4-wheel-drive,Positive,Not mentioned,Positive,Negative,Not mentioned,Positive,Medium,Not mentioned,Not mentioned,Positive,Negative,84930.0,7.0
+BMW,M135i,Positive,Medium,Positive,Positive,Negative,Positive,Positive,Not mentioned,Not mentioned,Medium,Positive,Positive,42560.0,8.0
+BMW,M5 Touring,Positive,Medium,Negative,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Negative,Positive,113515.0,8.0
+BMW,X6 M Competition,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,137190.0,8.0
+BMW,2 Series Gran Tourer,Positive,Positive,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Positive,Positive,Positive,27000.0,6.0
+BMW,2 Series Gran Coupe,Positive,Medium,Positive,Medium,Negative,Positive,Negative,Not mentioned,Positive,Positive,Positive,Positive,33335.0,6.5
+BMW,8 Series,Positive,Positive,Medium,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,94030.0,8.0
+BMW,2 Series Coupe,Positive,Positive,Positive,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Medium,Positive,38800.0,8.0
+BMW,X2,Positive,Medium,Negative,Medium,Positive,Not mentioned,Medium,Not mentioned,Not mentioned,Medium,Negative,Positive,42750.0,7.0
+BMW,XM,Negative,Positive,Not mentioned,Medium,Negative,Not mentioned,Medium,Medium,Not mentioned,Positive,Negative,Negative,110840.0,6.0
+BMW,iX1,Positive,Medium,Negative,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Medium,Positive,Positive,43000.0,8.0
+BMW,i5,Positive,Medium,Positive,Negative,Positive,Negative,Not mentioned,Positive,Positive,Positive,Negative,Positive,67705.0,8.0
+BMW,Z4,Positive,Medium,Positive,Positive,Negative,Not mentioned,Medium,Positive,Positive,Medium,Positive,Negative,46510.0,7.0
+BMW,iX3,Positive,Medium,Positive,Positive,Positive,Positive,Negative,Not mentioned,Positive,Medium,Positive,Positive,51670.0,7.0
+BMW,X4 M Competition,Positive,Positive,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Positive,Not mentioned,Positive,98705.0,7.0
+BMW,X3 M Competition,Positive,Positive,Medium,Positive,Positive,Positive,Positive,Not mentioned,Positive,Positive,Negative,Positive,42808.0,8.0
+BMW,5 Series Touring,Positive,Medium,Positive,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Not mentioned,Positive,54445.0,7.0
+Peugeot,Rifter,Medium,Negative,Positive,Medium,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,Negative,Positive,Medium,26225.0,5.0
+Peugeot,Rifter,Medium,Negative,Positive,Medium,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,Negative,Positive,Medium,26225.0,5.0
+Peugeot,e-Rifter,Negative,Medium,Not mentioned,Positive,Negative,Negative,Positive,Medium,Not mentioned,Negative,Negative,Medium,32500.0,4.0
+Peugeot,208,Positive,Positive,Positive,Medium,Positive,Positive,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,19995.0,8.0
+Peugeot,508,Positive,Medium,Positive,Negative,Positive,Positive,Negative,Not mentioned,Not mentioned,Negative,Not mentioned,Medium,46920.0,7.0
+Peugeot,408,Negative,Positive,Medium,Medium,Not mentioned,Negative,Medium,Positive,Not mentioned,Positive,Negative,Medium,35165.0,7.0
+Peugeot,308 GTi,Negative,Medium,Negative,Positive,Positive,Negative,Positive,Not mentioned,Not mentioned,Medium,Medium,Medium,32925.0,6.0
+Peugeot,e-308,Positive,Positive,Positive,Medium,Negative,Medium,Positive,Not mentioned,Positive,Positive,Neutral,Negative,37860.0,6.0
+Peugeot,108 TOP Convertible,Positive,Medium,Positive,Negative,Not mentioned,Positive,Medium,Not mentioned,Negative,Medium,Negative,Not mentioned,11115.0,5.5
+Peugeot,E-2008,Positive,Medium,Negative,Positive,Medium,Positive,Negative,Not mentioned,Not mentioned,Not mentioned,Not mentioned,Negative,34110.0,7.0
+Peugeot,208 GTi,Positive,Medium,Not mentioned,Positive,Positive,Positive,Negative,Not mentioned,Not mentioned,Medium,Medium,Positive,20490.0,8.0
+Peugeot,3008,Positive,Medium,Negative,Positive,Negative,Not mentioned,Positive,Positive,Positive,Medium,Negative,Positive,36490.0,7.0
+Peugeot,E-408,Positive,Medium,Positive,Not mentioned,Positive,Not mentioned,Positive,Not mentioned,Positive,Medium,Not mentioned,Positive,42185.0,7.0
+Peugeot,E-408,Positive,Medium,Positive,Not mentioned,Positive,Not mentioned,Positive,Not mentioned,Positive,Medium,Not mentioned,Positive,42185.0,7.0
+Peugeot,2008,Positive,Medium,Positive,Positive,Positive,Positive,Positive,Not mentioned,Not mentioned,Medium,Negative,Positive,27050.0,8.0
+Peugeot,Partner Tepee,Medium,Positive,Not mentioned,Medium,Medium,Negative,Medium,Negative,Negative,Negative,Positive,Not mentioned,8570.0,4.0
+Peugeot,508 SW,Positive,Medium,Negative,Positive,Not mentioned,Not mentioned,Positive,Not mentioned,Not mentioned,Medium,Negative,Negative,48120.0,8.0
+Peugeot,308 SW,Positive,Medium,Positive,Negative,Not mentioned,Not mentioned,Positive,Not mentioned,Positive,Medium,Not mentioned,Negative,31865.0,6.0
+Peugeot,e-Traveller,Positive,Positive,Not mentioned,Positive,Positive,Not mentioned,Positive,Positive,Medium,Positive,Not mentioned,Positive,48925.0,8.0
+Peugeot,E-5008,Positive,Medium,Negative,Positive,Positive,Medium,Positive,Not mentioned,Not mentioned,Positive,Negative,Positive,48660.0,8.0
+Peugeot,108,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Positive,Medium,Positive,Negative,Positive,4280.0,6.0
+Peugeot,308,Positive,Positive,Not mentioned,Medium,Positive,Positive,Positive,Positive,Positive,Positive,Negative,Not mentioned,32925.0,8.0
+Peugeot,Peugeot Sport Engineered,Positive,Medium,Positive,Positive,Positive,Negative,Positive,Not mentioned,Positive,Medium,Negative,Positive,54000.0,7.0
+Peugeot,Traveller,Medium,Positive,Positive,Medium,Negative,Not mentioned,Positive,Not mentioned,Not mentioned,Not mentioned,Negative,Medium,17599.0,6.0
+Peugeot,e-308 SW,Positive,Positive,Positive,Medium,Negative,Not mentioned,Positive,Positive,Positive,Positive,Not mentioned,Negative,39060.0,7.0
+Peugeot,5008,Positive,Positive,Positive,Medium,Negative,Not mentioned,Positive,Not mentioned,Positive,Positive,Positive,Medium,39490.0,8.0
+BYD,Seal,Positive,Positive,Medium,Positive,Mind-bending,Accurate steering,Limited by the panoramic glass roof,Not mentioned,Not mentioned,Unconventional but upmarket,Not mentioned,530hp Excellence version,45705.0,8.0
+BYD,Atto 3,Positive,Positive,Positive,Medium,Not mentioned,Not mentioned,Negative,Positive,Positive,Positive,Negative,Not mentioned,37305.0,6.0
+BYD,Seal U,Negative,Positive,Positive,Medium,Positive,Negative,Positive,Not mentioned,Not mentioned,Negative,Negative,Positive,33315.0,4.0
+BYD,Sealion 7,Negative,Positive,Medium,Medium,Negative,Negative,Positive,Not mentioned,Not mentioned,Negative,Negative,Medium,47000.0,6.0
+BYD,Dolphin,Positive,Medium,Positive,Positive,Negative,Not mentioned,Positive,Positive,Positive,Medium,Positive,Not mentioned,"₠,205",8/10
+GWM,Ora 03,Positive,Medium,Positive,Positive,Negative,Not mentioned,Negative,Not mentioned,Not mentioned,Medium,Negative,Positive,25005.0,5.0
+Haval,Jolion Pro,Medium,Positive,Negative,Positive,Negative,Not mentioned,Negative,Medium,Positive,Medium,Not mentioned,Negative,24275.0,6.0
+Jaecoo,7,Positive,Medium,Positive,Negative,Medium,Not mentioned,Negative,Not mentioned,Positive,Medium,Not mentioned,Positive,30115.0,7.0
+Leapmotor,T03,Positive,Positive,Negative,Medium,Positive,Negative,Negative,Not mentioned,Not mentioned,Not mentioned,Not mentioned,Positive,15995.0,7.0
+Leapmotor,C10,Medium,Positive,Not mentioned,Positive,Medium,Not mentioned,Positive,Medium,Positive,Medium,Negative,Positive,36500.0,6.0
+Leapmotor,C10,Medium,Positive,Not mentioned,Positive,Medium,Not mentioned,Positive,Medium,Positive,Medium,Negative,Positive,36500.0,6.0
