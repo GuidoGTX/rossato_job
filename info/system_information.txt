@@ -77,7 +77,7 @@
   }```
 
 
-**Output example**:
+**EXAMPLE**:
 ```{
     "Brand": "MG",
     "Model": "ZS",
