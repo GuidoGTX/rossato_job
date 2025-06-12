@@ -4,7 +4,6 @@ import sqlite3
 import os
 from dotenv import load_dotenv
 import plotly.express as px
-import plotly.graph_objects as go
 
 # Load environment variables
 load_dotenv(".env.vars")
@@ -33,13 +32,6 @@ def main():
     
     # Header con messaggi chiave
     st.title("🚗 **Analisi Competitiva: Il Successo delle Auto Cinesi in Europa**")
-    st.markdown("""
-    <div style='background-color: #0338a1; padding: 20px; border-radius: 10px; margin-bottom: 20px;'>
-    <h3 style='margin-top: 0;'>🎯 Obiettivo dell'analisi</h3>
-    <p><strong>Comprendere i fattori che stanno permettendo ai brand cinesi di conquistare quote di mercato in Europa 
-    attraverso l'analisi del sentiment dei consumatori reali.</strong></p>
-    </div>
-    """, unsafe_allow_html=True)
 
     df = fetch_car_reviews()
 
@@ -47,30 +39,31 @@ def main():
         st.error("Errore: il database deve contenere almeno le colonne 'Brand' e 'Overall'")
         return
 
+    # Prepara le liste dei brand disponibili
+    all_brands = df["Brand"].unique().tolist()
+    chinese_brands_available = sorted([b for b in all_brands if b in CHINESE_BRANDS])
+    european_brands_available = sorted([b for b in all_brands if b not in CHINESE_BRANDS])
+
     # Sidebar con filtri
-    st.sidebar.header("🔧 Controlli Analisi")
-    
-    # Selettore target audience
-    target_audience = st.sidebar.selectbox("👥 Target Audience", [
-        "📈 Manager Brand Europei", 
-    ])
-    
-    # Filtri
-    available_brands = sorted(df["Brand"].unique())
-    chinese_brands_available = [b for b in available_brands if b in CHINESE_BRANDS]
-    european_brands_available = [b for b in available_brands if b not in CHINESE_BRANDS]
-    
     st.sidebar.subheader("🔎 Filtro Brand")
     show_chinese = st.sidebar.checkbox("Brand Cinesi", value=True)
     show_european = st.sidebar.checkbox("Brand Europei", value=True)
+
+    # Nuovo: selettore multiplo per brand specifici
+    brands_options = []
+    if show_chinese:
+        brands_options.extend(chinese_brands_available)
+    if show_european:
+        brands_options.extend(european_brands_available)
+    brands_options = sorted(brands_options)
+    selected_brands = st.sidebar.multiselect(
+        "Seleziona uno o più brand",
+        options=brands_options,
+        default=brands_options
+    )
     
     # Filtra i dati
-    brands_to_show = []
-    if show_chinese:
-        brands_to_show.extend(chinese_brands_available)
-    if show_european:
-        brands_to_show.extend(european_brands_available)
-    
+    brands_to_show = selected_brands
     filtered_df = df[df["Brand"].isin(brands_to_show)]
     df_china = filtered_df[filtered_df["Country"] == "Cina"]
     df_europe = filtered_df[filtered_df["Country"] == "Europa"]
@@ -98,7 +91,7 @@ def main():
         st.metric("🔢 Volume Recensioni Europei", volume_europe)
 
     # Tabs principali
-    tab1, tab2, tab3, tab4 = st.tabs(["🎯 Analisi Competitiva", "📊 Performance Brand", "💡 Insight Strategici", "📋 Raccomandazioni"])
+    tab1, tab2, tab3 = st.tabs(["🎯 Analisi Competitiva", "📊 Performance Brand", "📋 Monitorare"])
 
     with tab1:
         st.markdown("### 🥊 **Confronto Diretto: Cina vs Europa**")
@@ -156,83 +149,6 @@ def main():
         st.dataframe(brand_performance_sorted, use_container_width=True)
 
     with tab3:
-        st.markdown("### 💡 **Insight Strategici**")
-        
-        # Messaggi specifici per audience
-        if target_audience == "🏢 Dealer/Concessionari Europei":
-            st.error("""
-            ### ⚠️ **Allarme Competitivo per Concessionari**
-            
-            **I numeri parlano chiaro:**
-            - I brand cinesi ottengono rating medi **più alti** con volumi **crescenti**
-            - I clienti sono **soddisfatti** dell'esperienza cinese
-            - **Rapporto qualità-prezzo** percepito come superiore
-            
-            **Azione richiesta:** Rivedere strategie pricing e value proposition dei brand europei
-            """)
-            
-        elif target_audience == "📈 Manager Brand Europei":
-            st.warning("""
-            ### 📊 **Critical Market Intelligence**
-            
-            **Gap Competitivo Identificato:**
-            - Rating superiori cinesi = **customer satisfaction** più alta
-            - Volume recensioni = **brand awareness** e **market penetration**
-            - Trend negativo per brand tradizionali europei
-            
-            **Strategic Priority:** Innovation in value delivery and customer experience
-            """)
-            
-        elif target_audience == "🧠 Analisti di Mercato":
-            st.info("""
-            ### 🔬 **Market Disruption Analysis**
-            
-            **Fattori di Successo Cinesi:**
-            1. **Quality Perception** - Rating consistently above European average
-            2. **Market Volume** - High review volumes indicate strong adoption
-            3. **Customer Advocacy** - Positive sentiment driving organic growth
-            
-            **Implicazioni:** Shift paradigmatico nel mercato automotive europeo
-            """)
-            
-        else:  # Investitori
-            st.success("""
-            ### 💰 **Investment Thesis Validation**
-            
-            **Chinese Automotive Sector Strengths:**
-            - **Customer Satisfaction** superiore ai competitor europei
-            - **Market Penetration** accelerata via digital channels
-            - **Brand Equity** building attraverso positive user experience
-            
-            **ROI Outlook:** Chinese brands positioned for continued European expansion
-            """)
-
-    with tab4:
-        st.markdown("### 📋 **Action Plan per Brand Europei**")
-        
-        # Raccomandazioni prioritarie
-        st.markdown("""
-        <div style='background-color: #fff3cd; padding: 15px; border-radius: 8px; margin-bottom: 15px;'>
-        <h4 style='color: #856404; margin-top: 0;'>🚨 Priorità Immediate (0-6 mesi)</h4>
-        <ul style='color: black;'>
-        <li><strong>Audit Competitivo:</strong> Analisi dettagliata value proposition cinesi</li>
-        <li><strong>Price Review:</strong> Riallineamento pricing strategy per competere</li>
-        <li><strong>Customer Experience:</strong> Identificazione gap nell'esperienza cliente</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        st.markdown("""
-        <div style='background-color: #d1ecf1; padding: 15px; border-radius: 8px; margin-bottom: 15px;'>
-        <h4 style='color: #0c5460; margin-top: 0;'>🎯 Strategie Medium-Term (6-18 mesi)</h4>
-        <ul style='color: black;'>
-        <li><strong>Innovation Acceleration:</strong> R&D focus su tecnologie competitive</li>
-        <li><strong>Digital Transformation:</strong> Miglioramento customer journey digitale</li>
-        <li><strong>Brand Positioning:</strong> Differenziazione su premium quality/heritage</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-        
         # Metriche da monitorare
         st.markdown("#### 📊 **KPI da Monitorare**")
         kpi_metrics = pd.DataFrame({
