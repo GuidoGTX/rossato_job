@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import sqlite3
 import os
 from dotenv import load_dotenv
 import plotly.express as px
+from db.database import fetch_car_reviews
 
 # Load environment variables
 load_dotenv(".env.vars")
@@ -11,21 +11,6 @@ DB_PATH = os.environ["DB_PATH"]
 
 # Brand cinesi identificati
 CHINESE_BRANDS = ["MG", "OMODA", "BYD", "GWM", "Haval", "Jaecoo", "Leapmotor", "Xpeng"]
-
-def get_db_connection():
-    conn = sqlite3.connect(DB_PATH)
-    return conn
-
-def fetch_car_reviews():
-    conn = get_db_connection()
-    query = "SELECT * FROM auto_reviews"
-    df = pd.read_sql_query(query, conn)
-    conn.close()
-    
-    # Aggiungi colonna Country basata sui brand
-    df['Country'] = df['Brand'].apply(lambda x: 'Cina' if x in CHINESE_BRANDS else 'Europa')
-    
-    return df
 
 def main():
     st.set_page_config(page_title="Perché le Auto Cinesi Dominano l'Europa", layout="wide")
